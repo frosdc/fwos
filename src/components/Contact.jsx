@@ -24,9 +24,10 @@ const Contact = ({ darkMode }) => {
     e.preventDefault();
     setIsSubmitting(true);
   
-    const serviceID = 'service_g46mlro';
-    const templateID = 'template_sf1kmtg';
-    const publicKey = 'BJdhcjbz0IwPuT4g9';
+    const serviceID = process.env.SERVICE_ID;
+    const templateID = process.env.TEMPLATE_ID;
+    const publicKey = process.env.PUBLIC_KEY;
+
   
     try {
       await emailjs.send(serviceID, templateID, formData, publicKey);
