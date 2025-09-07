@@ -24,9 +24,9 @@ const Contact = ({ darkMode }) => {
     e.preventDefault();
     setIsSubmitting(true);
   
-    const serviceID = process.env.SERVICE_ID;
-    const templateID = process.env.TEMPLATE_ID;
-    const publicKey = process.env.PUBLIC_KEY;
+    const serviceID = import.meta.env.VITE_SERVICE_ID;
+    const templateID = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
   
     try {
