@@ -28,9 +28,7 @@ const Contact = ({ darkMode }) => {
     const templateID = import.meta.env.VITE_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_PUBLIC_KEY;
   
-    console.log("Service ID:", serviceID);
-console.log("Template ID:", templateID);
-console.log("Public Key:", publicKey); 
+
   
     try {
       await emailjs.send(serviceID, templateID, formData, publicKey);
