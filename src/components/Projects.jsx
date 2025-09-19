@@ -53,7 +53,7 @@ const Projects = ({ darkMode }) => {
     },
     {
       id: 4,
-      title: 'Chainsaw Man Website (Replica)',
+      title: 'Chainsaw Man Website',
       description: 'A replica fan site with responsive design.',
       longDescription: 'A responsive replica website for Chainsaw Man featuring animations and mobile-first layout.',
       image: csm,
