@@ -54,8 +54,8 @@ const Projects = ({ darkMode }) => {
     {
       id: 4,
       title: 'Chainsaw Man Website',
-      description: 'A replica fan site with responsive design.',
-      longDescription: 'A responsive replica website for Chainsaw Man featuring animations and mobile-first layout.',
+      description: 'A fan site with responsive design.',
+      longDescription: 'A responsive website for Chainsaw Man featuring animations and mobile-first layout.',
       image: csm,
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
       githubUrl: 'https://github.com/frosdc/chainsawman-web.github.io',
